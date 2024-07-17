@@ -1,0 +1,11 @@
+faiss-cpu
+langchain
+langchain-google-genai
+langchain-community
+PyPDF2
+streamlit
+
+huggingface
+torch
+warnings-plugin
+fastapi
