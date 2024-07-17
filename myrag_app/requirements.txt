@@ -4,7 +4,7 @@ langchain-google-genai
 langchain-community
 PyPDF2
 streamlit
-
+huggingface_hub
 huggingface
 torch
 warnings-plugin
