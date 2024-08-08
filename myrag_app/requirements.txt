@@ -9,4 +9,4 @@ huggingface
 torch
 warnings-plugin
 fastapi
-
+python-dotenv
