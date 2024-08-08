@@ -75,7 +75,7 @@ def user_input(user_question):
 
 def main():
     st.set_page_config("Chat with multiple PDFs")
-    st.header("Chat with Multiple PDFs 🐆")
+    st.header("Chat with Multiple PDFs ")
     user_question = st.text_input("Enter your questions regarding the PDFs")
     if "conversation" not in st.session_state:
         st.session_state.conversation = None
@@ -94,7 +94,7 @@ def main():
                 vector_store = make_vector_store(textChunks)
                 st.session_state.conversation = make_conversational_chain(vector_store)
                 st.success("Done")
-        st.title("Credits to thala7️⃣")
+        
 
 if __name__ == "__main__":
     main()
